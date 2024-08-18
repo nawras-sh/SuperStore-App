@@ -81,7 +81,7 @@ with m_col:
 # Sidebar
 #
 #import image to sidebar
-st.sidebar.image(f'/Python/Dashboard Streamlit/SuperStore Project-V001/Carrefour.png')
+st.sidebar.image(f'Carrefour.png')
 # set lastup date the data depend on the lase order
 last_date = df['Order Date'].max().strftime('%d/%b/%Y')
 st.sidebar.write(f'♻Last Update: {last_date}')
